@@ -2,9 +2,10 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.AfterEach;
 import java.io.*;
-
 import static org.junit.jupiter.api.Assertions.*;
-
+/**
+ * @version (20220501)
+ **/
 public class Prog42Test {
     InputStream originalIn;
     PrintStream originalOut;
