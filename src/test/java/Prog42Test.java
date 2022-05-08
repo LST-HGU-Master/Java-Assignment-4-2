@@ -78,7 +78,7 @@ public class Prog42Test {
             // action
             Prog42.main(null);
             String str = bos.toString();
-            fail();
+            fail("??????!");
         } catch (NullPointerException e) {
             // pass
         }
